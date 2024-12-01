@@ -49,7 +49,7 @@ public class CuentaService implements ICuentaService{
         cuentaOrigen.setSaldo(cuentaOrigen.getSaldo()-transferenciaDto.getMonto());
         cuentaDestino.setSaldo(cuentaDestino.getSaldo()+transferenciaDto.getMonto());
         Transaccion nuevaTransaccion = new Transaccion();
-        nuevaTransaccion.setCuentadestinoid(cuentaOrigen.getId());
+        nuevaTransaccion.setCuentaorigenid(cuentaOrigen.getId());
         nuevaTransaccion.setCuentadestinoid(cuentaDestino.getId());
         nuevaTransaccion.setMonto(transferenciaDto.getMonto());
         nuevaTransaccion.setFecha(LocalDateTime.now());
