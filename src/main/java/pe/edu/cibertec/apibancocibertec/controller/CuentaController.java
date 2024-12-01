@@ -12,6 +12,9 @@ import pe.edu.cibertec.apibancocibertec.service.ICuentaService;
 
 import java.util.List;
 
+
+
+//@CrossOrigin(origins = {"http://frontbancociber.com"}, methods = {RequestMethod.GET, RequestMethod.POST})
 @RequiredArgsConstructor
 @Controller
 @RequestMapping("/api/v1/cuenta")
