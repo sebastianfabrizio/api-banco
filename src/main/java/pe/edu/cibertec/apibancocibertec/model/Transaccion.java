@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -18,5 +19,5 @@ public class Transaccion {
     private Integer cuentaorigenid;
     private Integer cuentadestinoid;
     private Double monto;
-    private LocalDate fecha;
+    private LocalDateTime fecha;
 }

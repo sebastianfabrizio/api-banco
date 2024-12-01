@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pe.edu.cibertec.apibancocibertec.model.Cuenta;
 
 @Repository
-public interface CuentaRepository extends JpaRepository<Cuenta, Long> {
+public interface CuentaRepository extends JpaRepository<Cuenta, Integer> {
 }
